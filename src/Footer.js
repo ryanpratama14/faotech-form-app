@@ -9,7 +9,7 @@ const Footer = () => {
           FaoTech™
         </a>
         . All Rights Reserved <br />
-        Sun, Dec 4, 2022 ——— Made by Ryan
+        Dec 4, 2022 ——— Made by Ryan
         {/*  */}
       </span>
     </footer>
