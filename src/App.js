@@ -75,10 +75,10 @@ function App() {
       <div className="App-header">
         {/* This is Title */}
         <div class="max-w-[800px]">
-          <h2 className="text-3xl sm:text-6xl md:text-4xl xl:text-5xl font-bold tracking-tight mb-14 mt-14">
+          <h2 className="text-center text-3xl sm:text-6xl md:text-4xl xl:text-5xl font-bold tracking-tight mb-14 mt-14">
             Passionate about programming?
             <br />
-            <span className="text-blue-300">join FaoTech, </span>
+            <span className="text-blue-300 ">join FaoTech, </span>
             <span className="text-red-300">NOW.</span>
           </h2>
         </div>
@@ -88,7 +88,7 @@ function App() {
           <div class="grid gap-6 mb-6 md:grid-cols-2">
             <div>
               <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                First name
+                First Name
               </label>
               <input
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -100,7 +100,7 @@ function App() {
             </div>
             <div>
               <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-                Last name
+                Last Name
               </label>
               <input
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
@@ -149,7 +149,7 @@ function App() {
           </div>
           <div class="mb-6">
             <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-              Email address
+              Email Address
             </label>
             <input
               maxLength={30}
@@ -215,11 +215,11 @@ function App() {
               }
             }}
             type="submit"
-            class="btn text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            class=" btn text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Submit
           </button>
-          <p class="text-red-200 text-xs mt-5 mb-5">{word}</p>
+          <p class="text-red-200 text-xs mt-5 mb-5 text-center">{word}</p>
         </div>
         {/* This is end of Form */}
       </div>
