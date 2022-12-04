@@ -4,6 +4,7 @@ const Navbar = () => {
   return (
     <div class="navbar bg-gray-900">
       <div class="navbar-start">
+        {/* mobile version */}
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
             <svg
@@ -43,10 +44,12 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a href="#" class="text-white btn btn-ghost normal-case text-2xl">
+        {/* end of mobile version */}
+        <a href="#" class="text-white btn btn-ghost normal-case text-3xl">
           Welcome!
         </a>
       </div>
+      {/* desktop version */}
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
           <li>
@@ -66,6 +69,7 @@ const Navbar = () => {
             <a href="#reviews">Reviews</a>
           </li>
         </ul>
+        {/* end of desktop version */}
       </div>
       <div class="navbar-end">
         <a
