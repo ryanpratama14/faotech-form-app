@@ -43,9 +43,7 @@ function App() {
       region.length > 0 &&
       address.length > 0
     ) {
-      setWord(
-        <p class="text-green-200 text-xs mt-3 mb-8 text-center">All done!</p>
-      );
+      setWord("All done!");
       isFilledAll.current = true;
       // console.log("KEISI SEMUA MANTAPPU JIWA");
     } else {
