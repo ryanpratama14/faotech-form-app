@@ -3,7 +3,7 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div>
-      <section class="bg-gray-700 text-white">
+      <section class="bg-gray-700 text-white" id="ceo">
         <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-24 lg:px-8">
           <div class="mx-auto max-w-xl text-center">
             <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">
@@ -33,7 +33,7 @@ const Testimonial = () => {
 
                 <a
                   class="btn mt-5 text-white font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-violet-600 dark:hover:bg-violet-500"
-                  href="https://www.instagram.com/alvinjustkidding/"
+                  href="https://www.instagram.com/fao30/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -45,7 +45,7 @@ const Testimonial = () => {
         </div>
       </section>
 
-      <section class="bg-base-400 text-white">
+      <section class="bg-base-400 text-white" id="reviews">
         <div class="mx-auto max-w-screen-xl px-8 py-12 sm:px-6 sm:py-24 lg:px-8">
           <div class="mx-auto max-w-xl text-center">
             <h2 class="text-4xl font-bold tracking-tight sm:text-5xl">
@@ -113,7 +113,7 @@ const Testimonial = () => {
                 </div>
                 <a
                   class="btn mt-5 text-white font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-500"
-                  href="https://www.instagram.com/ilham.akbar6/"
+                  href="https://www.instagram.com/alvinjustkidding/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -181,7 +181,7 @@ const Testimonial = () => {
                 </div>
                 <a
                   class="btn mt-5 text-white font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-500"
-                  href="https://www.instagram.com/alvinjustkidding/"
+                  href="https://www.instagram.com/anasfirly_"
                   target="_blank"
                   rel="noreferrer"
                 >
