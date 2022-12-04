@@ -8,7 +8,7 @@ import Footer from "./Footer";
 import Testimonial from "./Testimonial";
 
 function App() {
-  const [word, setWord] = useState("*Valid answers only");
+  const [word, setWord] = useState("Valid answers only");
   const [fName, setFName] = useState("");
   const [lName, setLName] = useState("");
   const [telephoneNum, setTelephoneNum] = useState("");
@@ -47,7 +47,7 @@ function App() {
       isFilledAll.current = true;
       // console.log("KEISI SEMUA MANTAPPU JIWA");
     } else {
-      setWord("*Valid answers only");
+      setWord("Valid answers only");
       isFilledAll.current = false;
       // console.log("ISI SEMUA DONG");
     }
@@ -114,7 +114,7 @@ function App() {
               </label>
               <input
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="18+"
+                placeholder="18+ only"
                 required
                 onChange={(e) => setAge(e.target.value)}
               />
@@ -125,7 +125,7 @@ function App() {
               </label>
               <input
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="123-45-678"
+                placeholder="8 996 100 52 02"
                 required
                 onChange={(e) => setTelephoneNum(e.target.value)}
               />
@@ -186,7 +186,7 @@ function App() {
             </label>
             <input
               class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              placeholder="Elvie Street 91"
+              placeholder="Jackson Street 91"
               required
               onChange={(e) => setAddress(e.target.value)}
             />
