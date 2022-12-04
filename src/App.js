@@ -76,7 +76,7 @@ function App() {
         {/* This is Title */}
         <div class="max-w-[800px]">
           <h2 className="text-3xl sm:text-6xl md:text-4xl xl:text-5xl font-bold tracking-tight mb-14 mt-14">
-            A major life change move
+            Passionate about programming?
             <br />
             <span className="text-blue-300">join FaoTech, </span>
             <span className="text-red-300">NOW.</span>
@@ -84,7 +84,7 @@ function App() {
         </div>
         {/* This is end of Title */}
         {/* This is Form */}
-        <div>
+        <div class="w-96">
           <div class="grid gap-6 mb-6 md:grid-cols-2">
             <div>
               <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
