@@ -198,28 +198,29 @@ function App() {
               onChange={(e) => setAddress(e.target.value)}
             />
           </div>
-
-          <button
-            onClick={(event) => {
-              isSubmitted = isSubmitted + 1;
-              if (isFilledAll.current === true && isSubmitted === 1) {
-                notifySuccess();
-              } else if (isFilledAll.current === true && isSubmitted === 2) {
-                toast("Already submitted, thank you", {
-                  icon: "🙌",
-                });
-              } else if (isFilledAll.current === true && isSubmitted > 2) {
-                event.preventDefault();
-              } else {
-                notifyError();
-              }
-            }}
-            type="submit"
-            class=" btn text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Submit
-          </button>
-          <p class="text-red-200 text-xs mt-5 mb-5 text-center">{word}</p>
+          <div class="text-center">
+            <button
+              onClick={(event) => {
+                isSubmitted = isSubmitted + 1;
+                if (isFilledAll.current === true && isSubmitted === 1) {
+                  notifySuccess();
+                } else if (isFilledAll.current === true && isSubmitted === 2) {
+                  toast("Already submitted, thank you", {
+                    icon: "🙌",
+                  });
+                } else if (isFilledAll.current === true && isSubmitted > 2) {
+                  event.preventDefault();
+                } else {
+                  notifyError();
+                }
+              }}
+              type="submit"
+              class=" btn text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Submit
+            </button>
+          </div>
+          <p class="text-red-200 text-xs mt-3 mb-8 text-center">{word}</p>
         </div>
         {/* This is end of Form */}
       </div>
