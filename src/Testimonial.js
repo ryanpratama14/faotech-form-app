@@ -66,7 +66,7 @@ const Testimonial = () => {
                   Full-Stack Developer at Rakuten
                 </p>
                 <p class="mt-4 text-sm text-white-500">
-                  "The fuck are you waiting? Join FaoTech now."
+                  "Nice interactive courses! Join FaoTech now."
                 </p>
 
                 <div class="mt-4 flex justify-center gap-0.5 text-yellow-500">
