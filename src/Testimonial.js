@@ -56,14 +56,14 @@ const Testimonial = () => {
           <div class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-16 lg:grid-cols-3">
             <div>
               <img
-                src="https://sun9-66.userapi.com/impg/dG1gdzQ7kkrPJ28sv9BOItZan82ysg4WrRz1GQ/Up3xSN3iPfE.jpg?size=1620x2160&quality=95&sign=767ae0c5eb95f6ef2bf4f6d98796a711&type=album"
+                src="https://sun9-81.userapi.com/impg/zpEQaT8EDrgYfk-HwzfkWMBYa3S_XIFSGJKpVg/Im_5Ubn6QSc.jpg?size=1728x2160&quality=96&sign=6d0560491c579c4a6ae0a36d0b5ad4e7&type=album"
                 class="mx-auto h-24 w-24 rounded-full object-cover shadow-xl"
               />
 
               <blockquote class="-mt-6 flex flex-col justify-between rounded-lg p-12 text-center shadow-xl">
-                <p class="text-lg font-bold text-white-700">Alvin Pratama</p>
+                <p class="text-lg font-bold text-white-700">Ryan Pratama</p>
                 <p class="mt-1 text-xs font-medium text-white-500">
-                  Back-End Developer at yukBet365
+                  Full-Stack Developer at Rakuten
                 </p>
                 <p class="mt-4 text-sm text-white-500">
                   "The fuck are you waiting? Join FaoTech now."
@@ -113,7 +113,7 @@ const Testimonial = () => {
                 </div>
                 <a
                   class="btn mt-5 text-white font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-indigo-600 dark:hover:bg-indigo-500"
-                  href="https://www.instagram.com/alvinjustkidding/"
+                  href="https://www.instagram.com/ryanpratama14"
                   target="_blank"
                   rel="noreferrer"
                 >
