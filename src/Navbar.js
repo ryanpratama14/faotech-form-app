@@ -45,8 +45,8 @@ const Navbar = () => {
           </ul>
         </div>
         {/* end of mobile version */}
-        <a href="#" class="text-white btn btn-ghost normal-case text-3xl">
-          Welcome!
+        <a href="#" class="text-white btn btn-ghost normal-case text-2xl">
+          WELCOME!
         </a>
       </div>
       {/* desktop version */}
@@ -73,12 +73,12 @@ const Navbar = () => {
       </div>
       <div class="navbar-end">
         <a
-          class="btn text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          class="btn text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-24 sm:w-auto px-2.5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
           href="https://www.instagram.com/fao30"
           target="_blank"
           rel="noreferrer"
         >
-          Contact our ceo
+          CONTACT
         </a>
       </div>
     </div>
