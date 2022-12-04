@@ -10,6 +10,7 @@ const Footer = () => {
         </a>
         . All Rights Reserved <br />
         Sun, Dec 4, 2022 ——— Made by Ryan
+        {/*  */}
       </span>
     </footer>
   );
