@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/faotech-form-app/static/css/main.f35cc9af.css",
-    "main.js": "/faotech-form-app/static/js/main.d04da84a.js",
+    "main.css": "/faotech-form-app/static/css/main.23463b02.css",
+    "main.js": "/faotech-form-app/static/js/main.6db6d8ca.js",
     "static/js/787.c1351da7.chunk.js": "/faotech-form-app/static/js/787.c1351da7.chunk.js",
     "static/media/ceo.png": "/faotech-form-app/static/media/ceo.8738b0c71828e48f3499.png",
     "index.html": "/faotech-form-app/index.html",
-    "main.f35cc9af.css.map": "/faotech-form-app/static/css/main.f35cc9af.css.map",
-    "main.d04da84a.js.map": "/faotech-form-app/static/js/main.d04da84a.js.map",
+    "main.23463b02.css.map": "/faotech-form-app/static/css/main.23463b02.css.map",
+    "main.6db6d8ca.js.map": "/faotech-form-app/static/js/main.6db6d8ca.js.map",
     "787.c1351da7.chunk.js.map": "/faotech-form-app/static/js/787.c1351da7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f35cc9af.css",
-    "static/js/main.d04da84a.js"
+    "static/css/main.23463b02.css",
+    "static/js/main.6db6d8ca.js"
   ]
 }
