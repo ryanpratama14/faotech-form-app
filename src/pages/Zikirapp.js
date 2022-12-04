@@ -1,4 +1,4 @@
-import "/Users/ryanpratama/Desktop/next-app/src/App.css";
+import "/Users/ryanpratama/Desktop/faotech-form-app/src/App.css";
 import React, { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { useNavigate } from "react-router-dom";

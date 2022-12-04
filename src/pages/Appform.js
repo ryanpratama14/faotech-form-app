@@ -1,4 +1,4 @@
-import "/Users/ryanpratama/Desktop/next-app/src/App.css";
+import "/Users/ryanpratama/Desktop/faotech-form-app/src/App.css";
 import { React, useEffect, useState, useRef } from "react";
 // import "flowbite";
 import toast, { Toaster } from "react-hot-toast";
